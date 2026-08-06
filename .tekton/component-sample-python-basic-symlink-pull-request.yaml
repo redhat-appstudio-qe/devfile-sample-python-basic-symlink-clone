@@ -9,9 +9,9 @@ metadata:
     pipelinesascode.tekton.dev/cancel-in-progress: "true"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
     pipelinesascode.tekton.dev/on-cel-expression: event == "pull_request" && target_branch
-      == "base-oeqkxq"
+      == "base-vwmoqn"
   labels:
-    appstudio.openshift.io/application: application-numa
+    appstudio.openshift.io/application: application-tfds
     appstudio.openshift.io/component: component-sample-python-basic-symlink
     pipelines.appstudio.openshift.io/type: build
   name: component-sample-python-basic-symlink-on-pull-request
